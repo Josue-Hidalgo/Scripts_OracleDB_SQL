@@ -58,8 +58,6 @@ CREATE TABLE TableName (
     
 ) TABLESPACE GE_DATA;
 
-ALTER TABLE TableName
-
 -- 3. Crear INDEX (OPCIONAL)
 CREATE INDEX IX_TableName_FirstAttribute ON GE.TableName(FirstAttribute)
     TABLESPACE GE_INDEX;
